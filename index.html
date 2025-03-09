@@ -17,26 +17,13 @@
     <meta name="twitter:title" content="Мой крутой сайт">
     <meta name="twitter:description" content="Это тестовый сайт с предпросмотром в Telegram">
     <meta name="twitter:image" content="https://cdn-icons-png.flaticon.com/512/10551/10551681.png">
-
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            padding: 50px;
-        }
-        h1 {
-            color: #333;
-        }
-        img {
-            width: 80%;
-            max-width: 600px;
-            border-radius: 10px;
-        }
-    </style>
+<script>
+      document.addEventListener("DOMContentLoaded", function() {
+            document.querySelector("#meta-title").setAttribute("content", "Новый заголовок!");
+            document.querySelector("#meta-description").setAttribute("content", "Новое описание для Telegram!");
+            document.querySelector("#meta-image").setAttribute("content", "https://example.com/new-image.jpg");
+        });
+    </script>
 </head>
-<body>
-    <h1>Привет, это тестовый сайт!</h1>
-    <p>Отправь эту ссылку в Telegram и увидишь предпросмотр 👇</p>
-    <img src="https://cdn-icons-png.flaticon.com/512/10551/10551681.png" alt="Превью">
-</body>
+
 </html>
